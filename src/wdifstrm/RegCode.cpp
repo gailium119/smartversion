@@ -148,7 +148,8 @@ REGCODE::REGCODE()
 
 BOOL REGCODE::TestRegCode(LPTSTR lpszName,LPTSTR lpszCode,BOOL *fPro)
 {
-    return CheckCrcFromString(lpszName,lpszCode,fPro);
+    return TRUE;
+    //return CheckCrcFromString(lpszName,lpszCode,fPro);
 }
 
 BOOL REGCODE::SetRegCode(LPTSTR lpszName,LPTSTR lpszCode,BOOL *fPro)
