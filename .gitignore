@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+rbldext
+*.vcxproj.user
+.vs
+ARM
+ARM64
+Win32
+x64
